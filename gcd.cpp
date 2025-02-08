@@ -15,7 +15,6 @@ using namespace std;
 //  }
 
 //  Using euclidean distance
-
 while(n1>0 && n2>0){
     if(n1>n2) n1=n1%n2;
     else n2=n2%n1;
@@ -25,6 +24,9 @@ if(n1==0)
 cout<<"GCD is "<<n2<<endl;
 else
 cout<<"GCD is "<<n1<<endl;
+
+
+
 
  return 0;
  }
