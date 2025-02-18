@@ -2,7 +2,6 @@
 using namespace std;
 int cnt =0;
 void print(int i, int n){
-   
     if(i>n) return;
     // to print couting
     // cout<<i<<endl;
